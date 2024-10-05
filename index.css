@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif; /* Cambié la tipografía para algo más moderno */
+    background: linear-gradient(to bottom, #3B5998, #2B478E); /* Degradado para darle más profundidad al fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor de login */
+.login {
+    background-color: #F0F0F0; /* Color más claro para que contraste mejor */
+    padding: 30px; /* Espaciado más amplio */
+    border-radius: 10px; /* Esquinas más redondeadas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra más suave para resaltar el cuadro */
+    width: 320px;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    margin-bottom: 25px; /* Más espacio debajo del título */
+    font-size: 24px;
+    color: #333; /* Texto más oscuro */
+}
+
+/* Grupos de entrada */
+.input-group {
+    margin-top: 20px;
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px; /* Espacio debajo de la etiqueta */
+    font-weight: bold;
+    color: #555; /* Color de texto más suave */
+}
+
+/* Campos de texto */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px; /* Más espacio en los campos */
+    border: 1px solid #bbb;
+    border-radius: 6px; /* Esquinas más suaves */
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Botón */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50; /* Color verde mejorado */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px; /* Texto más grande en el botón */
+    margin-top: 15px;
+    transition: background-color 0.3s ease; /* Animación suave al pasar el mouse */
+}
+
+/* Efecto hover */
+button[type="submit"]:hover {
+    background-color: #45A049; /* Cambio sutil al pasar el mouse */
+}
+
+/* Separador de secciones */
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Adaptación en pantallas pequeñas */
+@media (max-width: 480px) {
+    .login {
+        width: 90%;
+    }
+}
